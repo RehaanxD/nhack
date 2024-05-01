@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Set up OpenAI API key
-openai.api_key = "sk-proj-l8Iehs5iLVMZyTkrwvPET3BlbkFJNHgbJd3fJVTXUN2deoqR"
+openai.api_key = "given in doc"
 
 # Function to get government schemes and subsidies suggestions
 def get_schemes(topic, situation):
