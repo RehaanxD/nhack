@@ -1,0 +1,32 @@
+libraries to install, 
+
+streamlit , pip install streamlit
+
+openai , pip install openai==0.28 , the older version of open ai doesnt work
+
+incase streamlit gives an error please Create a Virtual Environment: One solution is to create a virtual environment using python -m venv venv, activate the virtual environment with venv\Scripts\activate, and then install Streamlit within this environment using pip install streamlit. Running Streamlit from the virtual environment should help resolve the issue.
+
+
+
+
+
+NHack Project: Government Schemes and Subsidies Chat  
+Selected topic : Financial inclusion
+Overview:
+Our project aims to provide a user-friendly interface for individuals to discover relevant government schemes and subsidies based on their specific situations. Using the OpenAI API, our chat-based application offers a seamless experience where users can input their circumstances, and the system responds with tailored suggestions for available government support.
+
+Features:
+Topic Selection: Users can choose from various topics such as Women, Farmer, Startups, Cottage industries, Cooperatives, and Unorganised business.
+Situation Input: Users can describe their situation related to the selected topic using a text area.
+Real-time Suggestions: Upon clicking the "Get Suggestions" button, the system generates and displays government schemes and subsidies that match the user's input.
+Chat-like Interface: The application provides a chat-like interface, resembling popular messaging apps, for a comfortable and intuitive user experience.
+Technology Stack:
+Streamlit: Used for building the web application interface.
+OpenAI API: Utilized for natural language processing to generate relevant suggestions.
+Python: The programming language used to develop the application.
+Future Enhancements:
+User Authentication: Implementing user accounts to save and revisit past queries.
+Enhanced Topic Selection: Adding more topics to cover a broader range of interests and needs.
+Mobile Optimization: Ensuring the application is responsive and accessible on mobile devices.
+Impact:
+Our project simplifies the process of accessing government schemes and subsidies, especially for individuals who may not be familiar with the available options. By providing personalized recommendations, we aim to increase awareness and utilization of government support programs, ultimately benefiting a wider audience.
